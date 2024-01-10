@@ -189,7 +189,7 @@ contract Bank {
 
 **合约中 ETH 余额为 0.042 ETH**：
 
-![IMG8_TotalETHBeforeWithdraw](/Users/garenwoo/Desktop/BlockChain/04-Camps/08-UpChain_Camp_3_OpenSpace/Bank/images/IMG8_TotalETHBeforeWithdraw.png)
+![IMG8_TotalETHBeforeWithdraw](./images/IMG8_TotalETHBeforeWithdraw.png)
 
 **提出所有 ETH 的交易**：
 https://goerli.etherscan.io/tx/0x1e0c3da5e180aff0ada729f48251ad9d48726cce8eda15d51714667c8a6be2ff
