@@ -50,7 +50,7 @@ contract Bank {
         return (rank[0], rank[1], rank[2]);
     }
 
-    function _handleRankWhenDeposit() public returns (uint) {
+    function _handleRankWhenDeposit() internal {
         uint membershipIndex = _checkRankMembership();
         uint convertedIndex;
         uint indexRecord = 777;
@@ -95,7 +95,6 @@ contract Bank {
                 }
             }
         }
-        return indexRecord;
     }
 
     function _checkRankMembership() internal view returns (uint) {
