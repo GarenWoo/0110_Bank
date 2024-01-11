@@ -14,7 +14,6 @@ contract Bank {
     mapping(address => uint) internal balance;
     address[3] internal rank;
     address public owner;
-    error InsufficientBalance();
 
     constructor() {
         owner = msg.sender;
